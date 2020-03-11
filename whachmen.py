@@ -14,7 +14,7 @@ def move_detect():
 ##################################
 
     root = tkinter.Tk()
-    root.iconbitmap('E:\ejecutable\icon.ico')
+    root.iconbitmap('.icon.ico')
     root.configure(bg="black")
     root.title("PASS")
     root.overrideredirect(True)
@@ -25,7 +25,7 @@ def move_detect():
     
 
     def validar():
-        if password.get() != "Luxemburgos":
+        if password.get() != "Luxemburgos": # ESTO SE DEBE MODIFICAR 
             tkinter.Label(root, text="PASSWORD INCORRECTO!", bg="black",fg="red3",font=('Comic Sans MS', 14)).place(x=520,y=450,width=250,height=40)
             
         else:
