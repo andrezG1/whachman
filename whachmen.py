@@ -25,7 +25,7 @@ def move_detect():
     
 
     def validar():
-        if password.get() != "Luxemburgos": # ESTO SE DEBE MODIFICAR 
+        if password.get() != "PASS": # ESTO SE DEBE MODIFICAR 
             tkinter.Label(root, text="PASSWORD INCORRECTO!", bg="black",fg="red3",font=('Comic Sans MS', 14)).place(x=520,y=450,width=250,height=40)
             
         else:
